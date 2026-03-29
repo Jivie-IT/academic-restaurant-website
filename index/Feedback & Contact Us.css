@@ -1,0 +1,94 @@
+/* Default head and footer */
+img {
+    width: 75px;
+    height: 60px;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Noto Sans JP', Arial, sans-serif;
+    color: rgb(255, 238, 0);
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+    list-style: none;
+    padding-right: 20px;
+}
+
+body {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.hyperlink {
+    color: #FFD700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #111;
+    color: #FFD700;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+/* Feedback form */
+
+h2 {
+    color: #ffb7c5;
+    text-align: center;
+}
+
+#Forms {
+    background-image: url(../index/Asian\ red\ BG\ NB.png);
+    border: 1px solid #FFD700;
+    display: block;
+    font-weight: bolder;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+#submit {
+    background-color: rgb(224, 95, 35);
+    width: auto;
+}
+
+#reset {
+    background-color: rgb(245, 67, 67);
+    width: auto;
+}
+
+label{
+    display: block;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#gender {
+    display: flex;
+}

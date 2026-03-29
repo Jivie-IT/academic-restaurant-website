@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./Feedback & Contact Us.css">
+</head>
+
+<body style="background-color: rgb(0, 0, 0);">
+    <div class="container">
+        <img src="./logo.jpg">
+        <h1>すばらビーツ - Subara Bitesu</h1>
+        <ul id="link">
+    <li type="none"><a class="hyperlink" href="index.html">Home</a></li>
+    <li type="none"><a class="hyperlink" href="About Us.html">About Us</a></li>
+    <li type="none"><a class="hyperlink" href="Menu.html">Menu</a></li>
+    <li type="none"><a class="hyperlink" href="Feedback & Contact Us.html">Feedback & Contact Us</a></li>
+</ul>
+    </div>
+
+    <div class="content-section">
+
+        <h2>ご意見をお聞かせください <br> (Share Your Feedback)</h2>
+
+        <form id="Forms" ; method="get" ; class="container">
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" name="fullname" required>
+            <br>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" min="1" max="120">
+            <br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob">
+            <br>
+
+            <label>Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="gender" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="gender" name="gender" value="other">
+            <label for="other">Other</label>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <br>
+            <label for="phone">Contact Number:</label>
+            <input type="number" name="phone">
+            <br>
+
+            <label>Preferred Contact Method:</label>
+            <input type="checkbox" name="contact-method" value="email">
+            <label for="contact-email">Email</label>
+
+            <input type="checkbox" name="contact-method" value="call">
+            <label for="contact-call">Call</label>
+
+            <input type="checkbox" name="contact-method" value="text">
+            <label for="contact-text">Text</label>
+            <br>
+
+            <div class="form-group">
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4"></textarea>
+            </div>
+
+            <div class="form-buttons">
+                <button id="reset"  type="reset" class="reset-btn">Reset</button>
+                <button id="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+
+        <footer class="footer">
+            <p>すばらビーツ - Subara Bitesu | 101 Chinatown street, Colombo | Open Monday-Sunday 11:00 am-12:00am</p>
+            <p>© 2023 Subara Bitesu. All Rights Reserved.</p>
+        </footer>
+
+
+</body>
+
+</html>
